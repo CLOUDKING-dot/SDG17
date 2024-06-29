@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo"><img src="13.png" alt="Logo"></h2>
+            
+        </div>
+        <div class="menu">
+            <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="ABOUT.html">ABOUT</a></li>
+                <li><a href="FEATURES.html">FEATURES</a></li>
+                <li class="active"><a href="SERVICES.html">SERVICES</a></li>
+                <li><a href="CONTACT.html">CONTACT</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="search">
+            <input class="srch" type="search" name=""placeholder="Type To text"> 
+            <a href="#"><button class="btn">Search</button></a>
+        </div>
+    </div>
+    <section id="SERVICES">
+        <div class="container">
+            <h2>OUR SERVICES</h2>
+            <p>We offer a variety of services to support sustainable development goals</p>
+            <ul>
+                <li>Consulting on sustainable practices</li>
+                <li>Technology integration for sustainability</li>
+                <li>Workshop and training programs</li>
+                <li>Resource management solutions</li>
+                <li><a href="price.xlsx">Tap for service prices</a></li>
+            </ul>
+            <h5>Request for service</h5>
+            <form id="SERVICESFORM" action="submit_form.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="service">Service</label>
+                <textarea id="service" name="service" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+                <p class="FormResponse"></p>
+            </form>
+        </div>
+    </section> 
+    </div>
+    <footer>
+        <div class="jk">
+            <nav>
+                <ul>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="TERMS AND CONDITIONS.html">TERMS AND CONDITIONS</a></li>
+                    <li><a href="PRIVACY POLICY.html">PRIVACY POLICY</a></li>
+                    <li><a href="CONCERNS.html">CONCERNS</a></li>  
+                </ul>
+            </nav>
+            <h6>&copy; 2024 SDG17. All rights reserved.</h6>
+        </div>
+    </footer>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
